@@ -1,0 +1,216 @@
+
+
+.clear {
+	clear: both;
+}
+
+body {
+	background: white; 
+	color: #000000;
+	font-family:'Roboto', sans-serif;
+	line-height: 1.7; 
+	font-size: 100%;
+	list-style: none; 
+	text-decoration: none; 
+}
+
+h1 {
+	letter-spacing: -5px;
+	font-size: 55px;
+	margin-bottom: 15px;
+	text-align: center; 
+}
+
+h2 {
+	font-size: 25px;
+	margin: 0;
+	text-align: center; 
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+
+	text-align: left;
+}
+
+	
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px; 
+	
+}
+
+
+
+blockquote {
+	border-left: 5px #BBB solid;
+	padding-left: 10px;
+	margin-left: 0;
+	font-style: italic;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+
+
+/*------------------------------------------------------------------------------ 
+LAYOUT  
+-----------------------------------------------------------------------------*/
+.title-container	{
+	background: url('../images/glasses.png') no-repeat center center fixed; 
+	background-size: cover;
+	margin: 0 auto;
+	
+
+}
+.body-container {
+	margin: 0 auto 0 auto;
+	width: 1000px;
+	text-align: center; 
+
+}
+
+.nav-container	{ 
+	margin: 0 auto 0 auto;
+	width: 0 auto 0 auto; 
+
+
+ }
+
+.contact-container	{
+	background: url('../images/talkshop.jpg')no-repeat center center fixed; 
+	background-size: cover;
+	list-style: none; 
+	text-align: center; 
+	font-size: 30px; 
+
+
+
+
+
+}
+/*----------------------------------------------------------------------------- 
+MAIN  
+-----------------------------------------------------------------------------*/
+.title {
+
+	padding: 200px;
+	text-align: center; 
+}
+
+.tagline {
+	margin-top: -30px;
+	margin-bottom: 30px;
+	text-align: center; 
+}
+
+.work {
+	margin-bottom: 50px;
+
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  width: 300px;
+  margin: 20px;
+  background: lightgrey; 
+  padding: 15px;
+  line-height: 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.about {
+  color: black;
+  padding: 10px 0px;
+  border-top: #BBB solid 1px;
+}
+
+a { 
+	text-align: center; 
+	text-decoration: none; 
+	color:black;
+}
+	
+a:hover{
+	color: #FF4500;
+	transition: color 0.3s ease-in;
+
+ }
+
+.footer { 
+
+	text-align: right;
+	width: auto; 
+	margin: 10px;
+
+ }
+
+
+/*----------------------------------------------------------------------------- 
+NAV  
+-----------------------------------------------------------------------------*/
+
+.nav-container {
+	background: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	position: fixed; 
+	margin-top: -15px; 
+	width: 100%;
+
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	font-size: 20px;
+}
+
+nav ul li a {
+	color: black;
+	margin: 16px;
+	padding: 10px;
+	display: block;
+	width: 100%;
+}
+nav ul li a:hover {
+	color: #FF4500;
+	transition: color 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
